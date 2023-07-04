@@ -1,1 +1,7 @@
-# EFECL
+# EFECL: Feature Encoding Enhancement with Contrastive Learning for Indoor 3D Object Detection
+
+## Introduction
+
+Good proposal initials are critical for 3D object detection applications. However, due to the significant geometry variation of indoor scenes, incomplete and noisy proposals are inevitable in most cases. Mining feature information among these ``bad" proposals may mislead the detection. Contrastive learning provides a feasible way for representing proposals, which can align complete and incomplete/noisy proposals in feature space. The aligned feature space can help us build robust 3D representation even if bad proposals are given. Therefore, we devise a new contrast learning framework for indoor 3D object detection, called \textit{EFECL}, that learns robust 3D representations by contrastive learning of proposals on two different levels. Specifically, we optimize both instance-level and category-level contrasts to align features by capturing instance-specific characteristics and semantic-aware common patterns. Furthermore, we propose an enhanced feature aggregation module to extract more general and informative features for contrastive learning. Evaluations on ScanNet V2 and SUN RGB-D benchmarks demonstrate the generalizability and effectiveness of our method, and our method can achieve 12.3% and 7.3% improvements on both datasets over the benchmark alternatives. 
+
+(Code is coming soon ...)
